@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WikiBlueboop</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="tile-overlay"></div>
+    <header>
+        <div class="logo">WIKIBLUEBOOP</div>
+        <marquee scrollamount="5">Welcome to the Retro Wiki! Fully powered by GitHub and Wikitext!</marquee>
+    </header>
+
+    <div class="container">
+        <div class="topnav">
+            <a href="#/Main_Page">Read</a>
+            <a href="#" onclick="alert('Edit mode is manual: Edit files in the /content folder of the GitHub repo!'); return false;">Edit</a>
+            <a href="#" onclick="alert('View history: Check the GitHub commit history!'); return false;">View history</a>
+            <div class="search-container">
+                <input type="text" id="wikiSearch" placeholder="Search Wiki...">
+                <button onclick="wikiSearch()">Go</button>
+            </div>
+        </div>
+
+        <div class="content">
+            <aside class="sidebar">
+                <h3>Navigation</h3>
+                <nav>
+                    <ul>
+                        <li><a href="#/Main_Page">Main Page</a></li>
+                        <li><a href="#/About">About</a></li>
+                    </ul>
+                </nav>
+                <div class="hit-counter">
+                    Visitor #<span id="random-counter">1337</span>
+                </div>
+                <div class="badge-box">
+                    <div class="badge">Made with ♥</div>
+                    <div class="badge">Retro Vibes</div>
+                </div>
+            </aside>
+
+            <main class="main">
+                <h1 id="article-title">Main Page</h1>
+                <hr>
+                <div id="article-content">
+                    Loading article...
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>© 2025 WikiBlueboop • A Nicholas Tritsaris Production • Under Perpetual Construction</p>
+        <div class="badges">
+            <img src="https://cyber.dabamos.de/88x31/anybrowser.gif" alt="Any Browser">
+            <img src="https://cyber.dabamos.de/88x31/notepad.gif" alt="Made with Notepad">
+            <img src="https://cyber.dabamos.de/88x31/internet-explorer.gif" alt="IE">
+        </div>
+    </footer>
+
+    <script src="js/wiky.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

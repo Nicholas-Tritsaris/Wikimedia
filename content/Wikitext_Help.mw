@@ -1,0 +1,23 @@
+== Wikitext Help ==
+
+Writing articles is easy! Use the following syntax:
+
+=== Formatting ===
+* '''Bold''': <code>'''Bold Text'''</code>
+* ''Italic'': <code>''Italic Text''</code>
+* <hr/> : <code>----</code>
+
+=== Headers ===
+* <code>== Header 2 ==</code>
+* <code>=== Header 3 ===</code>
+
+=== Links ===
+* Internal: <code>[[Main Page]]</code> or <code>[[Main Page|Custom Label]]</code>
+* External: <code>[https://google.com Google]</code>
+
+=== Lists ===
+* Bullet points: <code>* Item</code>
+* Numbered lists: <code># Item</code>
+
+=== Media ===
+* Images: <code>[[File:https://example.com/image.jpg|Alt Text]]</code>
