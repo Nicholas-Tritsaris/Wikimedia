@@ -1,0 +1,273 @@
+/* 2000s vibes adapted from blueboop.is-a.dev */
+body {
+    margin: 0;
+    background: linear-gradient(180deg, #001f3f 0%, #003366 40%, #004c99 100%);
+    color: #fff;
+    font-family: "Comic Sans MS", "Trebuchet MS", Verdana, sans-serif;
+    min-height: 100vh;
+}
+
+/* Tiled stars background overlay */
+.tile-overlay {
+    position: fixed;
+    inset: 0;
+    background-image:
+        radial-gradient(#8ecaff 1px, transparent 2px),
+        radial-gradient(#ffd500 1px, transparent 2px);
+    background-size: 6px 6px, 10px 10px;
+    background-position: 0 0, 3px 3px;
+    opacity: 0.15;
+    pointer-events: none;
+    z-index: -1;
+}
+
+header {
+    text-align: center;
+    padding: 12px 8px 0;
+}
+
+.logo {
+    display: inline-block;
+    padding: 10px 18px;
+    border: 3px ridge #c0d8ff;
+    background: linear-gradient(180deg, rgba(255,255,255,0.25), rgba(255,255,255,0.05));
+    box-shadow: 0 0 12px rgba(0, 200, 255, 0.6), inset 0 0 6px rgba(255,255,255,0.4);
+    text-shadow: 0 0 6px #9be7ff;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #eef7ff;
+    font-size: 24px;
+}
+
+marquee {
+    display: block;
+    margin: 12px auto 16px;
+    max-width: 860px;
+    color: #ffff99;
+    background: rgba(0, 0, 0, 0.25);
+    border: 2px groove #99ccff;
+    padding: 6px 10px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto 40px;
+    border: 4px outset #99ccff;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px rgba(0,0,0,0.35);
+    position: relative;
+}
+
+.topnav {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background: linear-gradient(180deg, #0b2f66, #0a2754);
+    border-bottom: 3px ridge #6fbaff;
+    padding: 8px;
+    align-items: center;
+}
+
+.topnav a {
+    color: #e7f3ff;
+    text-decoration: none;
+    padding: 6px 12px;
+    border: 2px outset #b7dcff;
+    background: linear-gradient(180deg, #1d4f8a, #133a69);
+    box-shadow: inset 0 0 6px rgba(255,255,255,0.2);
+    font-size: 14px;
+}
+
+.topnav a:hover {
+    color: #ffffcc;
+    border-style: inset;
+    filter: brightness(1.15);
+}
+
+.search-container {
+    margin-left: auto;
+    display: flex;
+    gap: 4px;
+}
+
+.search-container input {
+    background: #000;
+    color: #0f0;
+    border: 2px inset #99ccff;
+    padding: 4px;
+    font-family: monospace;
+}
+
+.search-container button {
+    background: #1d4f8a;
+    color: #fff;
+    border: 2px outset #b7dcff;
+    cursor: pointer;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 0;
+    min-height: 600px;
+}
+
+.sidebar {
+    border-right: 3px ridge #6fbaff;
+    background: linear-gradient(180deg, #0f356f, #0b2f66);
+    padding: 14px;
+}
+
+.sidebar h3 {
+    margin: 8px 0 10px;
+    color: #aee3ff;
+    text-shadow: 0 0 6px rgba(175, 231, 255, 0.55);
+    border-bottom: 1px solid #6fbaff;
+    font-size: 16px;
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar nav ul li {
+    margin-bottom: 8px;
+}
+
+.sidebar nav ul li a {
+    color: #ffff99;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.sidebar nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.1);
+    color: #eee;
+}
+
+.main h1 {
+    margin-top: 0;
+    color: #fff;
+    font-size: 2em;
+    border-bottom: 1px solid #6fbaff;
+    padding-bottom: 10px;
+}
+
+#article-content {
+    line-height: 1.6;
+}
+
+/* Wiki-style formatting */
+#article-content h2 {
+    border-bottom: 1px solid #555;
+    padding-bottom: 5px;
+    color: #aee3ff;
+    margin-top: 1.5em;
+}
+
+#article-content h3 {
+    color: #9be7ff;
+    margin-top: 1.2em;
+}
+
+#article-content a {
+    color: #ffff99;
+    text-decoration: none;
+}
+
+#article-content ul, #article-content ol {
+    padding-left: 20px;
+}
+
+#article-content li {
+    margin-bottom: 5px;
+}
+
+#article-content hr {
+    border: 0;
+    border-top: 1px solid #555;
+    margin: 20px 0;
+}
+
+/* Infobox-like class if they want to use it in HTML */
+.infobox {
+    float: right;
+    width: 250px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #6fbaff;
+    padding: 10px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+
+#toc a {
+    color: #6fbaff !important;
+}
+
+#toc ul {
+    list-style: none;
+    padding: 0;
+    margin: 5px 0 0 0;
+}
+
+#article-content a:hover {
+    text-decoration: underline;
+}
+
+.badge-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+    margin-top: 20px;
+}
+
+.badge {
+    border: 2px groove #b7dcff;
+    background: rgba(255,255,255,0.08);
+    padding: 6px;
+    text-align: center;
+    font-size: 11px;
+    color: #eaf6ff;
+    box-shadow: inset 0 0 6px rgba(255,255,255,0.15);
+}
+
+.hit-counter {
+    margin-top: 20px;
+    padding: 8px;
+    border: 2px groove #b7dcff;
+    background: #000;
+    font-size: 13px;
+    color: #0f0;
+    text-align: center;
+    font-family: monospace;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    color: #dbefff;
+    font-size: 12px;
+}
+
+.footer img {
+    margin: 5px;
+    border: 1px solid #6fbaff;
+}
+
+@media (max-width: 760px) {
+    .content {
+        grid-template-columns: 1fr;
+    }
+    .sidebar {
+        border-right: none;
+        border-bottom: 3px ridge #6fbaff;
+    }
+}

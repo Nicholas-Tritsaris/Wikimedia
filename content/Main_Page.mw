@@ -1,0 +1,23 @@
+Welcome to '''WikiBlueboop''', the retro-style encyclopedia under perpetual construction!
+
+This wiki uses the blueboop theme and is powered by Wikitext and GitHub.
+
+== How to use ==
+To add a new article, simply create a new file in the <code>content/</code> folder of the GitHub repository with the extension <code>.mw</code>.
+
+For example:
+* Create <code>content/My_New_Article.mw</code>
+* Link to it using <code>[[My New Article]]</code>
+
+== Features ==
+* '''Retro Theme''': Based on blueboop.is-a.dev
+* '''Wikitext Support''': Supports headers, bold, italics, links, and more!
+* '''Automatic Table of Contents''': Generated for articles with more than 3 sections.
+* '''GitHub Powered''': Stay updated every time the repo is edited.
+
+== Navigation ==
+* [[About|Learn more about this project]]
+* [[Wikitext_Help|How to write Wikitext]]
+
+----
+''This site is best viewed in 1024x768 resolution.''

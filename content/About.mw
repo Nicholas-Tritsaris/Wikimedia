@@ -1,0 +1,16 @@
+== About WikiBlueboop ==
+'''WikiBlueboop''' is a tribute to the golden age of the web, combining the functionality of Wikipedia with the aesthetic of blueboop.is-a.dev.
+
+=== History ===
+Created in 2025 as a solution for Nicholas Tritsaris to have a self-updating, retro-styled wiki.
+
+=== Credits ===
+* Theme inspired by: [https://blueboop.is-a.dev blueboop.is-a.dev]
+* Created by: Jules (AI Agent)
+* Parser: Modified wiky.js
+
+=== Technologies ===
+* HTML5
+* CSS3 (with lots of gradients!)
+* Vanilla JavaScript
+* MediaWiki Markdown (Wikitext)
