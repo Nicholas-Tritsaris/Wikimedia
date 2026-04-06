@@ -1,20 +1,21 @@
 import os
 import requests
-from openai import OpenAI
+from groq import Groq
 
 # Configuration
 GITHUB_USERNAME = os.getenv("GITHUB_REPOSITORY_OWNER", "Nicholas-Tritsaris")
 CONTENT_DIR = "content"
 MAIN_PAGE_PATH = os.path.join(CONTENT_DIR, "Main_Page.mw")
 PROJECTS_PAGE_PATH = os.path.join(CONTENT_DIR, "Projects.mw")
-QWEN_API_KEY = os.getenv("QWEN_API_KEY")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 
-# Initialize OpenAI client with Qwen's base URL
-client = OpenAI(
-    api_key=QWEN_API_KEY,
-    base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
-)
+# Initialize Groq client
+if not GROQ_API_KEY:
+    raise RuntimeError("GROQ_API_KEY not set. Skipping generation.")
+
+client = Groq(api_key=GROQ_API_KEY)
+
 
 def get_repositories():
     headers = {"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}
@@ -22,6 +23,7 @@ def get_repositories():
     response = requests.get(url, headers=headers)
     response.raise_for_status()
     return response.json()
+
 
 def get_repo_readme(repo_name):
     headers = {"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}
@@ -33,6 +35,7 @@ def get_repo_readme(repo_name):
         return content_response.text
     return ""
 
+
 def generate_wiki_article(repo):
     name = repo["name"]
     description = repo.get("description", "No description provided.")
@@ -43,7 +46,7 @@ Create a Wikipedia-style article in Wikitext format for the following GitHub rep
 Repo Name: {name}
 Description: {description}
 README Content:
-{readme[:2000]}  # Limiting readme content to first 2000 chars
+{readme[:2000]}
 
 Formatting Rules:
 - Use == Header 2 == and === Header 3 === for sections.
@@ -57,25 +60,30 @@ Formatting Rules:
 """
 
     response = client.chat.completions.create(
-        model="qwen-plus", # Use the latest stable Qwen-Plus model
+        model="llama-3.3-70b-versatile",
         messages=[
-            {"role": "system", "content": "You are a helpful assistant that writes professional Wikipedia articles in Wikitext format."},
-            {"role": "user", "content": prompt}
-        ]
+            {
+                "role": "system",
+                "content": (
+                    "You are a helpful assistant that writes professional "
+                    "Wikipedia articles in Wikitext format."
+                ),
+            },
+            {"role": "user", "content": prompt},
+        ],
+        temperature=0.4,
+        max_completion_tokens=1200,
     )
     return response.choices[0].message.content
 
-def main():
-    if not QWEN_API_KEY:
-        print("QWEN_API_KEY not set. Skipping generation.")
-        return
 
+def main():
     repos = get_repositories()
     repo_links = []
 
     for repo in repos:
         name = repo["name"]
-        if name == GITHUB_USERNAME: # Skip the profile repo if desired
+        if name == GITHUB_USERNAME:  # Skip the profile repo if desired
             continue
 
         filename = f"{name}.mw"
@@ -140,6 +148,7 @@ def main():
                 main_lines.insert(nav_index + 1, project_link_msg)
                 with open(MAIN_PAGE_PATH, "w", encoding="utf-8") as f:
                     f.writelines(main_lines)
+
 
 if __name__ == "__main__":
     main()
