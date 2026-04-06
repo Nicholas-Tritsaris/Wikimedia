@@ -1,0 +1,33 @@
+Metrics is a versatile infographics generator that provides a wide range of options to display statistics about ''GitHub'' accounts. With over 30 plugins and 300 options, it allows users to render their metrics as ''SVG'', ''Markdown'', ''PDF'', or ''JSON'' files. This tool supports ''users'', ''organizations'', and even ''repositories'', making it a valuable resource for anyone looking to showcase their ''GitHub'' activity.
+
+== Overview ==
+The metrics generator is designed to be highly customizable, with a wide range of plugins and options available to suit different needs. It can be used to create visual representations of ''GitHub'' data, such as commit calendars, language activity, and more. The tool is also highly flexible, allowing users to embed their metrics in various locations, including their ''GitHub'' profile ''README''.
+
+=== Features ===
+Some of the key features of the metrics generator include:
+* Support for ''users'', ''organizations'', and ''repositories''
+* Over 30 plugins available, including:
+** ''Isometric commit calendar''
+** ''Languages activity''
+* Over 300 options for customizing the appearance and behavior of the metrics
+* Ability to render metrics as ''SVG'', ''Markdown'', ''PDF'', or ''JSON'' files
+* Highly customizable, with a wide range of options for tailoring the output to specific needs
+
+== Installation ==
+To use the metrics generator, users can follow these steps:
+# Visit the [https://github.com/lowlighter/metrics GitHub repository] to access the tool
+# Follow the instructions in the ''README'' file to set up and configure the metrics generator
+# Use the available plugins and options to customize the output and create the desired visual representation of ''GitHub'' data
+
+=== Plugins ===
+The metrics generator includes a wide range of plugins that can be used to customize the output. Some examples of available plugins include:
+* '''Isocalendar''': creates an isometric commit calendar
+* '''Languages''': displays language activity
+These plugins can be used to create a wide range of visual representations of ''GitHub'' data, from simple commit calendars to more complex analyses of language activity.
+
+== Examples ==
+The metrics generator includes several example use cases, such as:
+* Creating a full-year calendar
+* Generating a half-year calendar
+* Performing an in-depth analysis of repository activity
+These examples demonstrate the flexibility and versatility of the metrics generator, and can be used as a starting point for creating custom visualizations of ''GitHub'' data.

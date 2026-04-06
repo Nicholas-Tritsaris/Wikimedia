@@ -1,0 +1,23 @@
+The '''Minecraft Property Encyclopedia''' is a comprehensive online tool for viewing, filtering, and sorting all blocks, entities, and items by their properties in the popular video game ''Minecraft''. It is hosted on [https://JoakimThorsen.github.io/MCPropertyEncyclopedia](https://JoakimThorsen.github.io/MCPropertyEncyclopedia) and is maintained by a small group of volunteers. The project aims to provide a powerful and easy-to-use repository of information about ''Minecraft'' blocks, entities, and items.
+
+== Overview ==
+The '''Minecraft Property Encyclopedia''' is a web-based tool that allows users to access a vast amount of information about ''Minecraft'' blocks, entities, and items. The project is ''in-development'' and relies on contributions from volunteers to ensure the accuracy and completeness of the information. Despite the efforts of the contributors, some properties may be incomplete or incorrect due to the limitations of automation and the need for manual curation.
+
+=== Features ===
+The '''Minecraft Property Encyclopedia''' offers several key features, including:
+* '''Property selection''': Users can select from a long list of properties for each page, with a basic case-insensitive search feature.
+* '''Filtering''': The values of properties can be used to filter and narrow down the list of entries that will be displayed.
+* '''Sorting''': Users can sort the list by any property, including both number and text values.
+* '''Search''': The main search bar allows users to search for specific entries.
+
+== Community ==
+The '''Minecraft Property Encyclopedia''' has a public [Discord](https://discord.gg/RUEVmTahYg) server where users can discuss the project, suggest corrections, and report issues. Contributions to the project are welcome through pull requests and reports on the issue tracker. A full list of contributors can be found on the [About Page](https://JoakimThorsen.github.io/MCPropertyEncyclopedia/about.html).
+
+== Usage ==
+To use the '''Minecraft Property Encyclopedia''', users can follow these steps:
+* Select the desired properties from the dropdown list
+* Filter the results using the property values
+* Sort the list by any property
+* Search for specific entries using the main search bar
+
+Note: The project is ''in-development'', and some features may not be fully functional or accurate. Users are encouraged to report any issues or suggest corrections to help improve the project.

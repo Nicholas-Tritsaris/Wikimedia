@@ -1,0 +1,25 @@
+SamRewritten is a modern '''Steam achievements manager''' for '''Windows''' and '''Linux'''. It allows users to unlock and relock achievements on their '''Steam''' account, as well as edit stats for games and apps that expose them. The project is heavily inspired by other similar projects, such as '''Steam Achievements Manager''' by Gibbed and '''Samira''' by jsnli. SamRewritten is not affiliated with '''Valve Corporation''' or '''Microsoft''', and is available for download on its '''GitHub''' page.
+
+== Overview ==
+SamRewritten is a tool designed to manage '''Steam achievements''' on '''Windows''' and '''Linux''' platforms. It provides a user-friendly interface to unlock and relock achievements, as well as edit stats for supported games and apps. The project is open-source and has been inspired by other similar projects, including '''Steam Achievements Manager''' and '''Samira'''.
+
+=== Features ===
+The key features of SamRewritten include:
+* Unlocking and relocking '''Steam achievements'''
+* Editing stats for games and apps that expose them
+* Support for '''Windows''' and '''Linux''' platforms
+* A user-friendly interface, available in multiple themes, including '''GTK''' and '''Adwaita'''
+
+== Installation ==
+To install SamRewritten, users can download the latest release from the [https://github.com/PaulCombal/SamRewritten/releases GitHub releases page]. The recommended way to run SamRewritten on '''Windows''' is via the official installer, while '''Linux''' users can use the '''AppImage''' file. Detailed installation instructions are available on the '''GitHub''' page.
+
+=== System Requirements ===
+SamRewritten is compatible with '''Windows''' and '''Linux''' platforms. The specific system requirements are not specified, but users can refer to the '''GitHub''' page for more information.
+
+== Development ==
+SamRewritten is an open-source project, and its development is ongoing. The project is maintained by its contributors, who are not affiliated with '''Valve Corporation''' or '''Microsoft'''. Users can contribute to the project by reporting issues, suggesting features, and submitting code changes.
+
+== See Also ==
+* [https://github.com/gibbed/SteamAchievementManager Steam Achievements Manager]
+* [https://github.com/jsnli/Samira Samira]
+* [https://store.steampowered.com/ Steam]

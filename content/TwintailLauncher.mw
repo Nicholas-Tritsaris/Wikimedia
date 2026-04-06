@@ -1,0 +1,65 @@
+TwintailLauncher is a '''multi-platform''' launcher designed to bring '''mod support''', '''quality-of-life improvements''', and '''advanced features''' to a variety of '''anime-styled games'''. It is an all-in-one tool for downloading, managing, and launching favorite '''anime games''', with a focus on '''flexibility''', '''ease of use''', and '''customization'''. The launcher supports several popular games, including ''Genshin Impact'', ''Honkai: Star Rail'', and ''Zenless Zone Zero''.
+
+== Overview ==
+The TwintailLauncher is a comprehensive tool that offers a range of features and benefits for gamers. It provides a user-friendly interface for managing and launching games, as well as '''mod support''' for customization. The launcher is designed to be '''safe to use''', with measures in place to avoid detection and interference with '''anti-cheat systems'''. However, users are advised to use the launcher at their own risk, as some games may require the launcher to '''disable anti-cheat''' features.
+
+=== Features ===
+The TwintailLauncher offers several key features, including:
+* '''Multi-platform support''': The launcher is available on multiple platforms, including '''Windows''' and '''Linux'''.
+* '''Mod support''': The launcher provides support for '''mods''', allowing users to customize their gaming experience.
+* '''Game management''': The launcher offers a user-friendly interface for managing and launching games.
+* '''Quality-of-life improvements''': The launcher includes several '''quality-of-life improvements''', such as '''advanced features''' and '''customization options'''.
+
+=== Supported Games ===
+The TwintailLauncher supports a range of popular '''anime-styled games''', including:
+* ''Genshin Impact''
+* ''Honkai: Star Rail''
+* ''Honkai Impact 3rd''
+* ''Zenless Zone Zero''
+* ''Wuthering Waves''
+* ''Punishing: Gray Raven''
+* ''AetherGazer''
+
+== Installation ==
+The TwintailLauncher can be installed on multiple platforms, including '''Windows''' and '''Linux'''. The installation process is straightforward, with '''download links''' available for each platform.
+
+| Platform | Link |
+| --- | --- |
+| Windows | [Windows Download] |
+| Linux | [Linux Download] |
+
+== Developers & Compiling ==
+The TwintailLauncher is an open-source project, and '''developers''' are encouraged to contribute to the project. To compile the launcher, '''prerequisites''' include:
+* '''Prerequisites''': [List of prerequisites]
+The '''building''' process involves several steps, including:
+* '''Building''': [Building instructions]
+
+== Screenshots ==
+The TwintailLauncher has a user-friendly interface, with '''screenshots''' available for both '''Windows''' and '''Linux''' platforms.
+<details>
+<summary>Windows</summary>
+[[File:Pic1.png|thumb|Windows Screenshot 1]]
+[[File:Pic2.png|thumb|Windows Screenshot 2]]
+[[File:Pic3.png|thumb|Windows Screenshot 3]]
+[[File:Pic4.png|thumb|Windows Screenshot 4]]
+[[File:Pic5.png|thumb|Windows Screenshot 5]]
+[[File:Pic6.png|thumb|Windows Screenshot 6]]
+</details>
+<details>
+<summary>Linux</summary>
+[[File:Pic1.png|thumb|Linux Screenshot 1]]
+[[File:Pic2.png|thumb|Linux Screenshot 2]]
+[[File:Pic3.png|thumb|Linux Screenshot 3]]
+[[File:Pic4.png|thumb|Linux Screenshot 4]]
+[[File:Pic5.png|thumb|Linux Screenshot 5]]
+[[File:Pic6.png|thumb|Linux Screenshot 6]]
+</details>
+
+== Sponsors ==
+The TwintailLauncher project is supported by several '''sponsors''', who contribute to the development and maintenance of the launcher.
+
+== Thanks to our contributors ==
+The TwintailLauncher project relies on the contributions of '''developers''' and '''users''', who help to improve and expand the launcher's features and functionality.
+
+== Issues and contributions ==
+Users can report '''issues''' and contribute to the project by visiting the [GitHub page]. Contributions are welcome, and users can help to improve the launcher by reporting bugs and suggesting new features.

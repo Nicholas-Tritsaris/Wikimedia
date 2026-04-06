@@ -1,0 +1,28 @@
+Rare is an open source alternative for Epic Games Launcher, using '''Legendary''', a command line alternative. It provides a graphical interface written in '''PySide6''', allowing users to manage their games in a more intuitive way. Rare aims to be a lightweight and feature-full experience, integrating seamlessly with Legendary.
+
+== Overview ==
+Rare is designed to run natively on most major platforms, providing a native experience for users. It is developed in '''Python''', which enables easy integration with Legendary. The project focuses on being as lightweight as possible while still offering a wide range of features.
+
+=== Features ===
+The key features of Rare include:
+* Native support for most major platforms
+* A lightweight and feature-full experience
+* Seamless integration with '''Legendary'''
+* Support for packages
+* A simple and intuitive interface
+
+== Features ==
+Rare offers several features that make it an attractive alternative to the Epic Games Launcher. These include:
+* '''Game covers''': Rare allows users to view their games with their respective covers.
+* '''Game details''': Users can view detailed information about their games, including settings and updates.
+* '''Downloads''': Rare provides a simple way to manage downloads and updates for games.
+* '''Application settings''': Users can customize the application to suit their needs.
+
+== Installation ==
+Rare can be installed on various platforms. 
+=== Windows ===
+There is an ''.msi'' installer available for Windows. 
+For more information, please visit the [https://github.com/RareDevs/Rare GitHub repository]. 
+
+== Community ==
+Rare has a community-driven approach, with a [https://discord.gg/YvmABK9YSk Discord server] available for discussion and support. The project is open source, and contributions are welcome. The '''Rare''' logo was designed by ''@MultisampledNight'' and is licensed under '''CC BY-SA 4.0'''.

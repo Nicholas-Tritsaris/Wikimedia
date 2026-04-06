@@ -1,0 +1,17 @@
+Plexus-Shaders is a '''WebGL''' Chrome Experiment that utilizes '''ThreeJS''', '''Fragment Shaders''', and '''Vertex Shaders''' to create a stress-test '''music visualizer''' for modern '''graphics cards'''. This tech demo is designed to push the limits of '''ThreeJS''' technology on contemporary video cards, featuring a particle system and post-processing shaders. It is optimized for '''Google Chrome''' but is also compatible with '''Firefox'''.
+
+== Overview ==
+The plexus-shaders project is a showcase of '''WebGL''' capabilities, leveraging the power of '''ThreeJS''' to generate a visually stunning music visualizer. By incorporating '''Vertex Shaders''' and '''Fragment Shaders''', the demo achieves a high level of graphical complexity, making it an ideal stress test for modern '''graphics cards'''. The project was developed using an '''nVidia GeForce GTX 980Ti''' and is capable of running at '''60 frames per second''' on compatible hardware.
+
+=== Features ===
+* '''Music Visualizer''': A dynamic, music-driven visualization that responds to audio input
+* '''Post-processing Shaders''': A range of visual effects that enhance the overall aesthetic of the demo
+* '''Particle System''': A complex system of particles that interact with the music visualizer
+* '''ThreeJS''' integration: Leverages the popular '''ThreeJS''' library to generate and render 3D graphics
+* '''WebGL''' support: Utilizes '''WebGL''' to deliver a seamless, browser-based experience
+
+== Installation ==
+To experience the plexus-shaders demo, simply visit the [Live Demo HERE](http://mgz.me/plexus-shaders) in a compatible web browser, such as '''Google Chrome''' or '''Firefox'''. No installation is required, as the demo runs entirely within the browser.
+
+== External Links ==
+For more information and to view the demo in action, visit the [Live Demo HERE](http://mgz.me/plexus-shaders) or explore the project's [GitHub repository](https://github.com/username/plexus-shaders).

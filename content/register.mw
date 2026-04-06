@@ -1,0 +1,28 @@
+is-a.dev is a service that allows developers to obtain a ''''.is-a.dev''' subdomain for their personal websites. This service provides a unique opportunity for developers to create a professional-looking online presence. The registration process involves forking the repository, following the instructions on the documentation, and opening a pull request for review.
+
+== Overview ==
+The is-a.dev service is designed to be user-friendly and accessible. The process of registering a subdomain is straightforward, with a '''visual guide''' available for those who need it. The service also has a '''Discord server''' where users can stay up-to-date with announcements, service updates, and downtime notifications.
+
+=== Features ===
+The is-a.dev service offers several features, including:
+* A '''sweet-looking .is-a.dev subdomain''' for personal websites
+* A '''Discord server''' for community engagement and support
+* A '''documentation''' page with instructions on how to register a subdomain
+* A '''review process''' for pull requests to ensure quality and consistency
+
+== Installation ==
+To register a subdomain, users need to follow these steps:
+# '''Fork''' the repository
+# Follow the instructions on the '''documentation''' page
+# Open a '''pull request''' for review
+# Make any necessary changes requested by the reviewers
+# Wait for the pull request to be merged and the DNS records to be published
+
+== Community ==
+The is-a.dev service has a '''Discord server''' where users can connect with each other, ask questions, and stay informed about service updates. The server is also used for announcements, downtime notifications, and other important updates. Users can join the server to become part of the community and get involved in the service.
+
+== External Links ==
+[https://discord.gg/is-a-dev-830872854677422150 Discord server]
+[https://docs.is-a.dev Documentation]
+[https://github.com/is-a-dev/register GitHub repository]
+[https://blog.wharrison.com.au/2024/07/is-a-dev/ Visual guide blog post]

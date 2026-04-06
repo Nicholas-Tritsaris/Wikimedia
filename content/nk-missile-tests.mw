@@ -1,0 +1,27 @@
+The '''nk-missile-tests''' repository is an interactive visualization of flight tests of all missiles launched by '''North Korea''' from 1984 to 2026. The real-time positions of '''North Korea's''' satellites are also visualized on the globe. This project provides a comprehensive and interactive way to explore the history of '''North Korea's''' missile tests.
+
+== Overview ==
+The '''nk-missile-tests''' project is based on data sourced from [the CNS North Korea Missile Test Database](http://www.nti.org/analysis/articles/cns-north-korea-missile-test-database/), which is the first database to record flight tests of all missiles launched by '''North Korea''' capable of delivering a payload of at least 500 kilograms (1102.31 pounds) a distance of at least 300 kilometers (186.4 miles). The database captures advancements in '''North Korea's''' missile program by documenting all such tests since the first one occurred in April 1984.
+
+=== Features ===
+The '''nk-missile-tests''' visualization offers several interactive features, including:
+* Rotation of the globe using mouse drag or swipe
+* Zooming in/out using mouse wheel rotation or pinch in/out
+* Tilt up/down using shift key + mouse drag or three-finger swipe
+* Selection of a test by clicking or tapping a test label on the map
+* Search for a test by entering a date or test name in the text field
+* Filtering tests by outcome (SUCCESS, FAILURE, and UNKNOWN)
+* Filtering tests by missile name
+* Display of a histogram showing the distribution of tests over time
+* A timeline bar to select a specific year
+
+== Data ==
+The data used in this visualization is sourced from [the CNS North Korea Missile Test Database](http://www.nti.org/analysis/articles/cns-north-korea-missile-test-database/). However, the database does not include exact landing locations, so bearing information from other sources such as the '''Japan Ministry of Defense''' is used to calculate the landing locations based on the locations of launching facilities and distances traveled.
+
+== Usage ==
+To use the '''nk-missile-tests''' visualization, simply navigate to the [Live Demo](https://nagix.github.io/nk-missile-tests) and interact with the globe using the features described above. The visualization is designed to be intuitive and easy to use, with a range of interactive tools to help explore the data.
+
+== External Links ==
+* [CNS North Korea Missile Test Database](http://www.nti.org/analysis/articles/cns-north-korea-missile-test-database/)
+* [Japan Ministry of Defense](https://www.mod.go.jp/e/index.html)
+* [Live Demo](https://nagix.github.io/nk-missile-tests)

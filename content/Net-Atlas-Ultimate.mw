@@ -1,0 +1,36 @@
+Net Atlas Ultimate is a '''neon-themed''' interactive '''3D world explorer''' that displays '''websites''' by '''country''' using a '''spinning globe''', '''visual effects''', '''flags''', '''icons''', and '''categories'''. It is built using '''Three.js''' and '''three-globe''' for the 3D globe, and '''world-atlas TopoJSON''' for real country polygons. The application features an '''orbital visual style''' with a '''starfield''', '''layered neon orbits''', and an '''atmosphere halo'''. By clicking on a '''country''', users can fetch live '''metadata''' from '''RESTCountries''', view the country's '''flag''' and '''stats''', and explore '''websites''' defined in the '''websites-by-country.json''' file.
+
+== Overview ==
+Net Atlas Ultimate is designed to visualize lists of websites that can be assembled using various online resources, such as '''Wikipedia''', '''BuiltWith''', '''all.site''', and '''internet-map.net'''. However, the '''browser frontend''' does not '''scrape''' these sites directly, as many of them have '''Terms of Service''' that restrict scraping. Instead, users are expected to use their own '''backend''' or '''CLI scripts''' to collect '''URLs''' and generate the '''websites-by-country.json''' file, which is then used by the '''frontend''' to render the websites on the '''orbital globe'''.
+
+== Features ==
+The key features of Net Atlas Ultimate include:
+* A '''spinning 3D globe''' with real country polygons
+* An '''orbital visual style''' with a starfield, layered neon orbits, and an atmosphere halo
+* The ability to click on a country to fetch live metadata and view its flag and stats
+* The ability to explore websites defined in the '''websites-by-country.json''' file
+* '''Neon''', '''glassmorphism''', '''CRT scanlines''', and '''hover bloom''' visual effects
+* '''Website favicons''', '''country flags''', and '''TLD-based categories'''
+
+== Data ==
+The '''websites-by-country.json''' file is used to store the list of websites for each country. The file is expected to be in the following format:
+```json
+{
+  "AU": [
+    { "url": "https://abc.net.au", "category": "media" },
+    { "url": "https://www.australia.gov.au", "category": "government" }
+  ],
+  "US": [
+    { "url": "https://www.whitehouse.gov", "category": "government" },
+    { "url": "https://www.nasa.gov", "category": "science" }
+  ]
+}
+```
+The keys in the file are '''ISO 3166-1 alpha-2 country codes''' (e.g. AU, US, JP, DE, etc.).
+
+== Installation ==
+To deploy Net Atlas Ultimate to '''GitHub Pages''', follow these steps:
+1. Create a new repository and add the required files: '''index.html''', '''style.css''', '''script.js''', '''websites-by-country.json''', '''LICENSE''', '''gitignore''', and '''README.md'''
+2. Push the files to GitHub
+3. Enable GitHub Pages by going to Settings → Pages → source = '''main''' / root
+4. The site will be available at '''https://<username>.github.io/<repo>'''

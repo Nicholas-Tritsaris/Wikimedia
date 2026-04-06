@@ -1,0 +1,46 @@
+youtube-dl is a '''command-line program''' to download videos from ''YouTube.com'' and other video sites. It is a popular, open-source tool that allows users to easily download videos from various online platforms. The program is written in ''Python'' and is available for ''UNIX''-based systems, including ''Linux'' and ''macOS'', as well as ''Windows''.
+
+== Overview ==
+youtube-dl is a '''free software''' project that provides a simple and efficient way to download videos from online platforms. The program supports a wide range of video sites, including ''YouTube'', ''Vimeo'', and ''Dailymotion''. It is highly customizable, allowing users to specify various options, such as video quality, format, and output file name.
+
+=== Features ===
+Some of the key features of youtube-dl include:
+* '''Video downloading''': youtube-dl allows users to download videos from various online platforms.
+* '''Format selection''': users can choose from a variety of video formats, including ''MP4'', ''WebM'', and ''FLV''.
+* '''Video quality selection''': users can select the video quality, ranging from ''1080p'' to ''240p''.
+* '''Output template''': users can specify a custom output template for the downloaded video files.
+* '''Configuration''': youtube-dl can be configured to suit individual user needs, including options for proxy settings, user agent, and more.
+
+== Installation ==
+To install youtube-dl, users can follow these steps:
+* For ''UNIX''-based systems, including ''Linux'' and ''macOS'', users can install youtube-dl using '''curl''' or '''wget'''. The installation command is: <code>sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl</code> or <code>sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl</code>.
+* For ''Windows'' users, an '''exe file''' can be downloaded from the [official website](https://yt-dl.org/latest/youtube-dl.exe) and placed in any location on the system ''PATH''.
+* Alternatively, users can install youtube-dl using '''pip''': <code>sudo -H pip install --upgrade youtube-dl</code>.
+* ''macOS'' users can also install youtube-dl using '''Homebrew''' or '''MacPorts''': <code>brew install youtube-dl</code> or <code>sudo port install youtube-dl</code>.
+
+== Configuration ==
+youtube-dl can be configured to suit individual user needs. Users can specify options such as proxy settings, user agent, and more. The configuration file can be found in the ''~/.config/youtube-dl'' directory.
+
+== Output Template ==
+The output template can be customized to specify the output file name and format. Users can use various placeholders, such as ''%(title)s'' and ''%(id)s'', to create a custom output template.
+
+== Format Selection ==
+youtube-dl allows users to select from a variety of video formats, including ''MP4'', ''WebM'', and ''FLV''. Users can specify the format using the '''-f''' option, followed by the format code.
+
+== Video Selection ==
+Users can select the video quality, ranging from ''1080p'' to ''240p''. The video quality can be specified using the '''-f''' option, followed by the quality code.
+
+== FAQ ==
+For frequently asked questions, users can refer to the [official FAQ page](https://ytdl-org.github.io/youtube-dl/faq.html).
+
+== Developer Instructions ==
+Developers can contribute to the youtube-dl project by checking out the [git repository](https://github.com/ytdl-org/youtube-dl). The developer instructions can be found in the [README file](https://github.com/ytdl-org/youtube-dl/blob/master/README.md).
+
+== Embedding youtube-dl ==
+youtube-dl can be embedded in other applications, allowing developers to integrate the video downloading functionality into their own projects.
+
+== Bugs ==
+To report bugs or issues, users can open an [issue on GitHub](https://github.com/ytdl-org/youtube-dl/issues).
+
+== Copyright ==
+youtube-dl is a '''free software''' project, licensed under the ''MIT License''. The copyright information can be found in the [LICENSE file](https://github.com/ytdl-org/youtube-dl/blob/master/LICENSE).
