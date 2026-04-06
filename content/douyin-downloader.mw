@@ -1,0 +1,25 @@
+Douyin Downloader is a '''cross-platform''' download tool for '''Douyin''' videos, built with '''Tauri'''. It provides a simple and easy-to-use interface for downloading videos from the popular Chinese social media platform. The tool is available for '''Windows''', '''macOS''', and '''Linux''' operating systems.
+
+== Overview ==
+The Douyin Downloader tool is designed to be user-friendly and efficient. It utilizes the '''Tauri''' framework, which allows for '''cross-platform''' compatibility and a native desktop experience. The tool's interface is straightforward, making it easy for users to navigate and download their desired videos.
+
+=== Features ===
+The Douyin Downloader tool offers several key features, including:
+* '''Cross-platform''' support for '''Windows''', '''macOS''', and '''Linux'''
+* A simple and intuitive interface for downloading '''Douyin''' videos
+* Support for various video formats and resolutions
+
+== Installation ==
+To install the Douyin Downloader tool, users can download the latest release from the [GitHub repository](https://github.com/lzdyes/douyin-downloader/releases). The tool is available for '''Windows x64''', '''Linux x86_64''', and '''macOS 10.13+'''. Alternatively, users can build the tool themselves from the source code, which supports '''Windows''', '''Linux''', and '''macOS 10.13+'''. Note that '''Windows''' users may need to install '''Webview2''' to run the application.
+
+== Screenshots ==
+The Douyin Downloader tool has a clean and user-friendly interface, as shown in the following screenshots:
+[https://github.com/lzdyes/douyin-downloader/blob/main/docs/screenshots/windows_1.png Windows Screenshot 1]
+[https://github.com/lzdyes/douyin-downloader/blob/main/docs/screenshots/windows_2.png Windows Screenshot 2]
+[https://github.com/lzdyes/douyin-downloader/blob/main/docs/screenshots/windows_3.png Windows Screenshot 3]
+
+== External Links ==
+* [Tauri](https://github.com/tauri-apps/tauri): The framework used to build the Douyin Downloader tool
+* [Douyin](https://www.douyin.com): The Chinese social media platform for which the tool is designed
+* [GitHub Repository](https://github.com/lzdyes/douyin-downloader): The official repository for the Douyin Downloader tool
+* [Webview2](https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section): The required runtime for '''Windows''' users

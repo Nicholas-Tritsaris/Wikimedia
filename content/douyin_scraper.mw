@@ -1,0 +1,48 @@
+The '''douyin_scraper''' is a Python-based tool designed to scrape and filter metadata from a list of Douyin videos, while also downloading the videos. It takes a list of video URLs and a set of metadata filters as input, and outputs a CSV file containing the filtered metadata along with the downloaded videos. The tool utilizes the '''douyin-tiktok-scraper''' library to interact with the Douyin API.
+
+== Overview ==
+The '''douyin_scraper''' is a command-line tool that provides a simple and efficient way to collect and analyze Douyin video metadata. It is designed to be easy to use, with a minimal number of dependencies and a straightforward installation process.
+
+=== Features ===
+The '''douyin_scraper''' has several key features, including:
+* The ability to download Douyin videos from a list of URLs
+* The ability to extract and filter metadata from the downloaded videos
+* The ability to output the filtered metadata in a CSV file
+* The use of the '''douyin-tiktok-scraper''' library to interact with the Douyin API
+
+== Installation ==
+To install the '''douyin_scraper''', follow these steps:
+# Clone the repository using '''git clone https://github.com/Clemapfel/douyin_scraper.git'''
+# Install the required dependencies using '''pip install json''', '''pip install csv''', '''pip install requests''', and '''pip install douyin-tiktok-scraper'''
+
+== Usage ==
+To use the '''douyin_scraper''', follow these steps:
+# Collect the video URLs and paste them into a file, such as '''video_ids.txt'''
+# Specify the metadata filters and paste them into a file, such as '''filter.txt'''
+# Execute the script using '''python3 scrape.py video_ids.txt filter.txt'''
+# Collect the output, which will include a CSV file containing the filtered metadata and a folder containing the downloaded videos
+
+=== Example Usage ===
+For example, to collect the metadata for a list of Douyin videos, you can create a '''video_ids.txt''' file containing the following:
+```
+https://www.douyin.com/video/7188679476946029885
+https://www.douyin.com/video/7188514977211305277
+https://www.douyin.com/video/7188463948864261434
+```
+You can then create a '''filter.txt''' file containing the following:
+```
+digg_count
+play_count
+share_count
+```
+Finally, you can execute the script using '''python3 scrape.py video_ids.txt filter.txt''' to collect the metadata and download the videos.
+
+== Dependencies ==
+The '''douyin_scraper''' depends on the following libraries:
+* '''json''': for parsing JSON data
+* '''csv''': for outputting CSV files
+* '''requests''': for making HTTP requests to the Douyin API
+* '''douyin-tiktok-scraper''': for interacting with the Douyin API
+
+== Output ==
+The '''douyin_scraper''' outputs a CSV file containing the filtered metadata, as well as a folder containing the downloaded videos. The CSV file will have a name in the format '''YYYY-MM-DD_hh:mm.csv''', and will contain the values for all keys specified in the '''filter.txt''' file. The folder will contain the downloaded videos, as well as a set of '''raw.json''' files containing the raw metadata for each video.

@@ -1,0 +1,48 @@
+WHASOS is a 64‑bit operating system for x86‑64 (AMD64) architecture, designed to provide a Windows 7–like desktop experience. It is a secure, classified‑grade operating system project, combining workplace health and safety compliance infrastructure, government‑grade access control systems, and intelligence‑agency‑inspired secure operating architecture.
+
+== Overview ==
+WHASOS is a unique operating system that simulates restricted federal infrastructure, with a focus on security and access control. The system is designed to integrate into a high‑security game environment and features a multi‑tier clearance authentication system. '''Work Health and Safety Operating System''' is the full form of WHASOS, which is also referred to as '''WHAOS'''.
+
+=== Features ===
+The key features of WHASOS include:
+* A '''Windows 7–like desktop experience''' without using any proprietary Windows assets
+* '''Multi‑tier clearance authentication''' for secure access control
+* An '''SCP‑style secure documentation system''' for anomaly containment documentation
+* '''Government‑grade access control systems''' for enhanced security
+* '''Intelligence‑agency‑inspired secure operating architecture''' for a robust and secure operating system
+
+== Installation ==
+To install WHASOS, follow these steps:
+# Build C components with '''Visual Studio 2022''' (see [[docs/BUILD_VS2022.md]])
+# Build ISO on '''Ubuntu 24.04''' using the command `./scripts/build_iso.sh 1.0`
+# Create a '''VirtualBox VM''' and attach the `output/whacos-1.0-amd64.iso` file
+# Boot and install or run live
+
+=== System Requirements ===
+The system requirements for WHASOS include:
+* '''Ubuntu 24.04 LTS''' (or '''Debian 12''' / '''Fedora 40''') as the host operating system
+* '''sudo/root access''' for installation and configuration
+* Approximately '''10 GB''' of free disk space
+* Installation of dependencies using the command `debootstrap xorriso grub-pc-bin grub-efi-amd64-bin squashfs-tools rsync wget build-essential`
+
+== Project Structure ==
+The WHASOS project has the following structure:
+* '''WHAOS/''' (root directory)
+	+ '''boot/grub/''' (boot loader configuration)
+	+ '''docs/''' (documentation directory)
+	+ '''scripts/''' (script directory)
+	+ '''src/''' (source code directory)
+		- '''desktop/''' (desktop environment)
+		- '''init/''' (initialization scripts)
+		- '''installer/''' (installation scripts)
+		- '''kernel/''' (kernel source code)
+	+ '''output/''' (output directory)
+
+== Access Warning ==
+''Unauthorized access attempts may trigger system lockdown, activity logging, account suspension, simulated prosecution notices, and clearance revocation.'' All activity is logged and audited, and users are advised to exercise caution when accessing the system.
+
+== Core Objectives ==
+The core objectives of the WHASOS project are:
+* To build a '''functional operating system architecture'''
+* To implement '''multi‑tier clearance authentication'''
+* To create an '''SCP‑style secure documentation system'''

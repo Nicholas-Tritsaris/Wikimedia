@@ -1,0 +1,31 @@
+== Overview ==
+The '''basic-computer-games''' repository is an updated version of the classic ''BASIC Computer Games'' book, featuring well-written examples in a variety of common '''memory safe''' and '''scripting''' programming languages. The project aims to modernize the first million-selling computer book for 2022 and beyond, making it accessible to a new generation of programmers.
+
+=== History ===
+The original ''BASIC Computer Games'' book was first published and has since become a classic in the world of computer programming. The book's games can still be [played in a browser](https://troypress.com/wp-content/uploads/user/js-basic/index.html) or [read in their original form](https://archive.org/details/basiccomputergam0000unse) via archive.org.
+
+=== Features ===
+The repository features a collection of games from the original book, with each game having its own subfolder containing ports to various '''memory safe''' and '''general purpose scripting languages''', including:
+* '''C#'''
+* '''Java'''
+* '''JavaScript'''
+* '''Kotlin'''
+* '''Lua'''
+* '''Perl'''
+* '''Python'''
+* '''Ruby'''
+* '''Rust'''
+* '''VB.NET'''
+These languages were chosen based on the [2022 TIOBE index of top languages](https://www.tiobe.com/tiobe-index/) and are considered to be both '''memory safe''' and suitable for '''general purpose scripting'''.
+
+=== Project Structure ===
+The repository is organized into folders, each corresponding to a game from the original book. Within each game folder, there are subfolders for each of the target programming languages. The original '''BASIC''' source code has been normalized to run against '''Vintage Basic''' circa 2009, courtesy of '''Lyle Kopnicky'''.
+
+=== Discussion ===
+Discussion and worklogs for the project can be found on the [Coding Horror discourse](https://discourse.codinghorror.com/t/-/7927).
+
+=== Installation ===
+As this is a collection of code examples, there is no installation required. Users can simply browse the repository and explore the various game implementations in different programming languages.
+
+=== External Links ===
+For more information, visit the [project website](https://coding-horror.github.io/basic-computer-games/). The original book can be [read online](https://archive.org/details/basiccomputergam0000unse), and the games can be [played in a browser](https://troypress.com/wp-content/uploads/user/js-basic/index.html).

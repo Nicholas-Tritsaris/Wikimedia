@@ -1,0 +1,21 @@
+== Overview ==
+The Wikimedia repository is a static site that renders MediaWiki markdown, also known as Wikitext, on the fly. It features a unique "blueboop" theme, inspired by [https://blueboop.is-a.dev blueboop.is-a.dev]. This project allows users to create and access Wikipedia-like articles using Wikitext syntax.
+
+== Features ==
+The repository includes the following key features:
+* '''Static site generation''': The site renders Wikitext on the fly, allowing for dynamic content creation.
+* '''Custom theme''': The "blueboop" theme provides a distinctive and visually appealing design for the site.
+* '''Easy content creation''': Users can create new articles by adding `.mw` files to the `content/` directory.
+
+== Installation ==
+To get started with the Wikimedia repository, follow these steps:
+# Clone the repository to your local machine.
+# Create a new `.mw` file in the `content/` folder (e.g., `My_Article.mw`).
+# Use Wikitext syntax for formatting your article.
+# Access the article via `index.html#/My_Article`.
+
+== Usage ==
+To add content to the site, simply create a new `.mw` file in the `content/` folder and use Wikitext syntax for formatting. You can then access the article via the `index.html` page. For example, if you create a file called `My_Article.mw`, you can access it by navigating to `index.html#/My_Article`.
+
+== Theme Inspiration ==
+The "blueboop" theme was inspired by [https://blueboop.is-a.dev blueboop.is-a.dev], a website that features a similar design aesthetic. The theme provides a unique and visually appealing design for the site, making it stand out from other Wikipedia-like projects.

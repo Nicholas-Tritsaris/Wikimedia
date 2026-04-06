@@ -1,0 +1,25 @@
+EduBridge is a lightweight platform designed to connect students and teachers for various educational activities, including assignments, messaging, and classroom collaboration. This platform aims to facilitate a more interactive and engaging learning experience. The EduBridge repository contains the starter code and documentation for the EduBridge web app, providing a foundation for developers to build upon.
+
+== Overview ==
+EduBridge is an educational platform that enables users to create and manage class groups, assignments, and resources. The platform is built using a combination of technologies, including '''React''' for the frontend, '''Node.js''' and '''Express''' for the backend, and '''PostgreSQL''' or '''MongoDB''' for the database. The use of '''GitHub Actions''' for continuous integration (CI) ensures streamlined development and deployment processes.
+
+=== Features ===
+The EduBridge platform offers several key features that enhance the learning experience:
+* '''Classrooms''': create and manage class groups, facilitating organized learning environments.
+* '''Assignments''': create, submit, and grade assignments, making it easier for teachers to track student progress.
+* '''Messaging''': enable teacher-student and peer communication, promoting collaboration and feedback.
+* '''Resource Hub''': upload and share learning materials, providing a centralized location for educational resources.
+* '''Analytics''': offer basic engagement and performance insights, helping teachers refine their instructional strategies.
+
+== Installation ==
+To get started with EduBridge, follow these steps:
+1. Clone the repository using '''git clone''' [https://github.com/Nicholas-Tritsaris/EduBridge.git].
+2. Navigate to the cloned repository using '''cd EduBridge'''.
+3. Refer to the repository's documentation for further instructions on setting up the development environment.
+
+== Technical Details ==
+The EduBridge platform is built using a variety of technologies, including:
+* '''Frontend''': '''React''' (or alternative frameworks), providing a flexible and interactive user interface.
+* '''Backend''': '''Node.js''' and '''Express''' (or alternative backend solutions), handling server-side logic and API interactions.
+* '''Database''': '''PostgreSQL''' or '''MongoDB''', storing and managing platform data.
+* '''CI''': '''GitHub Actions''', automating testing, building, and deployment processes.

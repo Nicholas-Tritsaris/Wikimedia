@@ -1,0 +1,21 @@
+Climate Change Visualization is a '''WebGL'''-based project that creates a interactive globe to visualize surface temperature anomalies over the past century. The project utilizes data from '''NASA GISS Surface Temperature Analysis (GISTEMP v4)''' and is inspired by '''Google Chrome Experiments'''. The globe is designed to provide a comprehensive view of temperature changes across the globe, allowing users to explore and understand the impact of ''climate change''.
+
+== Overview ==
+The Climate Change Visualization project is an interactive '''WebGL-globe''' that displays surface temperature anomalies from the past century. The data used in this project is sourced from '''NASA GISS Surface Temperature Analysis (GISTEMP v4)''', which provides global temperature data with a 2 x 2 degree grid spacing. The project's website layout is based on '''Cathal Mc Daid's adaptive mobile spam globe''', ensuring a responsive and user-friendly interface.
+
+=== Data Sources ===
+The project relies on data from [https://data.giss.nasa.gov/gistemp/ NASA GISS Surface Temperature Analysis (GISTEMP v4)], which offers '''NetCDF''' files for download. The specific data used in this project is the surface air temperature data with 250km smoothing.
+
+== Features ==
+The Climate Change Visualization project offers several key features, including:
+* Interactive '''WebGL-globe''' for visualizing surface temperature anomalies
+* Data sourced from '''NASA GISS Surface Temperature Analysis (GISTEMP v4)'''
+* Responsive website layout based on '''Cathal Mc Daid's adaptive mobile spam globe'''
+* Ability to explore temperature changes over the past century
+
+== Examples ==
+The project includes several screenshots demonstrating its functionality, including images of the globe in the [https://github.com/AodhanSweeney/climate_change_globe/blob/master/1910s.png 1910s] and [https://github.com/AodhanSweeney/climate_change_globe/blob/master/2010s.png 2010s]. A live version of the climate change viewer can be accessed at [http://students.washington.edu/aodhan/webgl_globe.html].
+
+== External Links ==
+* [https://data.giss.nasa.gov/gistemp/ NASA GISS Surface Temperature Analysis (GISTEMP v4)]
+* [http://students.washington.edu/aodhan/webgl_globe.html Live Climate Change Viewer]

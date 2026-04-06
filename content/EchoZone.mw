@@ -1,0 +1,30 @@
+EchoZone is a '''location-based''', '''anonymous''' social media platform inspired by ''Yik Yak'', designed for real-time local discussions and community interaction. It allows users to post short messages visible only within a defined '''geographic radius'''. The platform aims to provide a unique experience for users to engage with their local community. 
+
+== Overview ==
+EchoZone is a social media platform that enables users to share their thoughts and opinions anonymously, with a focus on location-based discussions. The platform is currently in '''early development''', with a planned '''tech stack''' that includes '''React''', '''Node.js''', '''Firebase''', '''Mapbox''', and more.
+
+=== Core Features ===
+The platform offers several key features, including:
+* '''Anonymous posting''': allowing users to share their thoughts without revealing their identity
+* '''Location-based feed''': showing users posts from their surrounding area
+* '''Upvotes and downvotes''': enabling users to interact with posts and influence their visibility
+* '''Real-time updates''': providing a dynamic and engaging experience for users
+* '''Content moderation tools''': helping to maintain a safe and respectful environment for users
+
+== Features ==
+The platform's features are designed to facilitate real-time local discussions and community interaction. Some of the key features include:
+* '''Location-based''' posting and feed
+* '''Anonymous''' posting and interaction
+* '''Real-time''' updates and notifications
+* '''Content moderation''' tools for a safe and respectful environment
+
+== Technical Details ==
+The planned '''tech stack''' for EchoZone includes:
+* '''Frontend''': '''React''' / '''React Native'''
+* '''Backend''': '''Node.js''' + '''Express'''
+* '''Realtime Data''': '''Firebase''' / '''WebSockets'''
+* '''Maps & Location''': '''Mapbox'''
+* '''Authentication''': '''Anonymous''' / '''Device-based'''
+
+== Status ==
+The project is currently in '''early development''', with ongoing work on the platform's features and infrastructure. For more information, please visit the [EchoZone GitHub repository](https://github.com/EchoZone).

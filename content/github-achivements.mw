@@ -1,0 +1,30 @@
+The '''github-achivements''' repository is a dedicated repository for a full list of '''GitHub''' profile badges and achievements written in multiple languages. It provides a comprehensive list of achievements that developers can unlock on the '''GitHub''' platform, celebrating their growth and contributions to open source projects. The repository is available in multiple languages, including '''EN-US''' and '''PT-BR''', and is constantly updated to reflect new achievements and badges.
+
+== Overview ==
+The '''github-achivements''' repository was created in response to '''GitHub''''s introduction of a new '''Achievements''' section to the '''GitHub''' profile. This section includes badges for various achievements, such as the '''Mars 2020 Helicopter Mission''' badge, the '''Arctic Code Vault''' badge, and a badge for sponsoring open source work via '''GitHub Sponsors'''. The repository aims to provide a complete list of these achievements, allowing developers to track their progress and celebrate their contributions to open source projects.
+
+=== History ===
+The '''github-achivements''' repository was launched after '''GitHub''' announced the new '''Achievements''' section on [https://github.blog/2021-04-19-open-source-goes-to-mars/ April 19, 2021]. On [https://github.blog/2022-06-09-introducing-achievements-recognizing-the-many-stages-of-a-developers-coding-journey/ July 9, 2022], '''GitHub''' announced more achievements, but without specific criteria. The repository is constantly updated to reflect new achievements and badges.
+
+== Features ==
+The '''github-achivements''' repository provides the following features:
+* A comprehensive list of '''GitHub''' profile badges and achievements
+* Multiple language support, including '''EN-US''' and '''PT-BR'''
+* Constant updates to reflect new achievements and badges
+* A community-driven approach, allowing developers to contribute to the repository and suggest new achievements
+
+=== Available Achievements ===
+The repository includes a list of available achievements, including:
+* '''Mars 2020 Helicopter Mission''' badge
+* '''Arctic Code Vault''' badge
+* Badge for sponsoring open source work via '''GitHub Sponsors'''
+* Other achievements announced by '''GitHub''' on [https://github.blog/2022-06-09-introducing-achievements-recognizing-the-many-stages-of-a-developers-coding-journey/ July 9, 2022]
+
+== Installation ==
+To access the '''github-achivements''' repository, simply visit the [https://github.com/ github-achivements] page on '''GitHub'''. The repository is available in beta, and developers can contribute to it by opening issues or suggesting new achievements.
+
+== See Also ==
+* [[GitHub]]
+* [https://github.blog/ GitHub Blog]
+* [https://github.com/sponsors GitHub Sponsors]
+* [https://archiveprogram.github.com/arctic-vault/ Arctic Code Vault]

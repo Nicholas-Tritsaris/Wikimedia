@@ -1,0 +1,43 @@
+The '''Net Observation Project''' is a non-commercial global internet observation and exposure analysis project that utilizes datasets from '''Censys'''. Led by ''Nicholas Tritsaris'', the project provides scanning analytics, certificate insights, service enumeration, and research findings. It is built as a cyber-neon observability suite, combining a responsive '''Cloudflare Pages''' frontend with a zero-cold-start '''Pages Function''' that aggregates live intelligence from the '''Censys Search v2 API'''.
+
+== Overview ==
+The Net Observation Project aims to provide a comprehensive understanding of the internet's landscape. By leveraging the Censys Search v2 API, the project offers a unique perspective on the global network. The project's architecture is designed to be scalable and efficient, with a focus on providing real-time data and insights.
+
+=== Directory Layout ===
+The project's directory layout is organized into several key components:
+* '''docs/''': Frontend assets served by Cloudflare Pages
+* '''functions/api/''': Cloudflare Pages Functions (backend)
+* '''README.md''': Project documentation
+* '''_.gitignore''': Common project ignores
+
+== Features ==
+The Net Observation Project includes a range of features, such as:
+* Animated cyber-neon theme with automatic dark/light behavior and manual override
+* Collapsible sidebar navigation mirrored on every page for rapid context switching
+* Live '''/api/censys-summary''' polling drives '''Chart.js''' charts, '''D3''' world heatmap, and terminal outputs
+* Terminal-style command runner with plugin registration API and sample plugin
+* '''JSON/CSV''' data visualiser supporting clipboard paste or file uploads
+* Settings control for backend endpoint and '''Auth0''' SPA configuration with local persistence
+* Optional '''Auth0''' login wiring (via '''@auth0/auth0-spa-js''') when credentials are supplied
+* Versions hub highlighting roadmap milestones and multi-version documentation sidebar
+
+== Branding ==
+The project features a stylised textual logo placeholder that can be replaced with a custom logo. To add custom branding, users can drop a '''logo.png''' (preferably 512×512) into the '''docs/''' directory, and the layout will adopt it automatically.
+
+== Installation ==
+To run the Net Observation Project locally, follow these steps:
+# Clone the repository and install any tooling you prefer for static hosting (e.g. '''npm install --global wrangler''' for Cloudflare previews)
+# Serve the frontend by pointing a static server at the '''docs/''' directory:
+```bash
+npx http-server docs
+```
+or use the Cloudflare Pages preview command:
+```bash
+npx wrangler pages dev docs --local --persist
+```
+# Configure environment variables for the backend function:
+```bash
+export CENSYS_API_ID="your-censys-id"
+export CENSYS_API_SECRET="your-censys-secret"
+```
+# Run the function locally to test its functionality.
