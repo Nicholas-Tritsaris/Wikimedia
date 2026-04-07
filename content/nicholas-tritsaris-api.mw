@@ -1,0 +1,44 @@
+== Overview ==
+The '''nicholas-tritsaris-api''' repository is a '''Virtual Portfolio API''' that generates an '''openapi.yaml''' file in '''OpenAPI 3.0.3''' format from public '''GitHub''' repositories and '''README''' files. This repository is designed for '''GitBook URL import''', allowing the spec to render as a polished, interactive developer portal that refreshes automatically as projects change.
+
+=== What this repo does ===
+The repository fetches all public repositories for '''Nicholas-Tritsaris''' using the '''GitHub API''', and then fetches each repository's '''README.md'''. It uses the '''Groq API''' ('''llama3-70b-8192''') to analyze each project and generate:
+* A professional summary
+* Key features
+* Tech stack used
+* Mock ''API responses'' for each project
+* Suggested project-specific subpaths
+The repository then builds a single '''openapi.yaml''' file compliant with '''OpenAPI 3.0.3''', and updates the spec automatically with '''GitHub Actions''' every 6 hours.
+
+== Features ==
+The generated '''OpenAPI''' spec documents a portfolio as if it were an '''API'''. The core endpoints include:
+* '''GET /profile''' — bio, skills, social links (hardcoded in the script)
+* '''GET /repos''' — all public repositories with brief summaries
+* '''GET /repos/{name}''' — detailed information (summary, tech stack, links) for a specific repo
+* '''GET /repos/{name}/*''' — (e.g., '''/repos/{name}/features''', '''/repos/{name}/usage''') '''AI'''-generated specific sub-paths for each project based on its '''README''' content
+
+== Repository layout ==
+The repository layout is as follows:
+```text
+.
+├── .github/
+│   └── workflows/
+│       └── update-api.yml
+├── generate_openapi.py
+├── openapi.yaml
+├── requirements.txt
+├── .gitignore
+└── README.md
+```
+
+== Installation ==
+To run the generator locally, you'll need to set the environment variables:
+```bash
+export GROQ_API_KEY="your_groq_api_key"
+```
+You will also need to add the following repository secrets in '''Settings -> Secrets and variables -> Actions''':
+* '''GROQ_API_KEY''' — your '''Groq API''' key
+The '''GITHUB_TOKEN''' is provided automatically in '''GitHub Actions''' to workflows to fetch repositories and push updates.
+
+== Usage ==
+To use this repository, simply import the '''openapi.yaml''' file into '''GitBook''' to render the interactive developer portal. The spec will refresh automatically every 6 hours using '''GitHub Actions'''.
