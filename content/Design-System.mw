@@ -1,0 +1,26 @@
+The Design-System repository is a centralized design system with Y2K/retro aesthetics, built from extracted components across multiple projects. It provides a set of reusable UI components, layouts, and style modules to help developers create consistent and visually appealing interfaces. The system is built using pure HTML, CSS, and JavaScript, making it framework-agnostic and easy to integrate into existing projects.
+
+== Overview ==
+The Design-System repository is designed to provide a comprehensive set of UI components and tools for building retro-themed interfaces. It includes a range of core components, layout templates, and style modules that can be easily customized and extended.
+
+=== Features ===
+The Design-System repository includes the following key features:
+* '''6 Core Components''': Button, Card, Input, Badge, Navbar, and Marquee, which provide a foundation for building complex interfaces.
+* '''3 Layout Templates''': Retro, Terminal, and Dashboard, which offer pre-designed layouts for common use cases.
+* '''4 Style Modules''': Colors, Typography, Spacing, and Effects, which provide a set of reusable CSS variables and utilities for customizing the appearance of components.
+* '''Retro Storybook''': An interactive component preview with code snippets, making it easy to explore and test components.
+* '''Pure HTML/CSS/JS''': The system is built using pure HTML, CSS, and JavaScript, making it framework-agnostic and easy to integrate into existing projects.
+* '''GitHub Pages Compatible''': The system is ready to deploy to GitHub Pages, making it easy to share and showcase projects.
+
+== Installation ==
+To get started with the Design-System repository, follow these steps:
+# Link the stylesheet by adding the following line to your HTML file: <code><link rel="stylesheet" href="Design-System/styles/main.css"></code>
+# Use the components by adding the corresponding HTML markup to your project. For example, to use the '''Button''' component, add the following code: <code><button class="btn btn-default">Click Me</button></code>
+
+== Project Structure ==
+The Design-System repository is organized into the following directories:
+* '''styles/''': Contains the main stylesheet (main.css) and individual style modules for colors, typography, spacing, and effects.
+* '''components/''': Contains the individual component directories, each with its own HTML file and variants.
+* '''layouts/''': Contains the layout template files, including the retro layout.
+
+Note: For more information on using the Design-System repository, please refer to the [README file](https://github.com/username/Design-System/blob/main/README.md) on GitHub.
