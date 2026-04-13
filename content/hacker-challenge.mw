@@ -1,0 +1,23 @@
+The '''hacker-challenge''' repository is an interactive web-based challenge that utilizes the web inspector to guide users through a series of challenges. The challenge is designed for individuals new to the web inspector, providing a hands-on learning experience. It is hosted at [https://hacker-challenge.netlify.app/].
+
+== Overview ==
+The '''hacker-challenge''' is a simple static site that allows users to explore the capabilities of the web inspector. The web inspector is a ''hidden panel'' available in all web browsers, enabling users to navigate through elements on a page and temporarily modify them. In '''Google Chrome''', the web inspector can be opened by right-clicking in the browser window and selecting the last option, "'''Inspect'''".
+
+=== Features ===
+The '''hacker-challenge''' repository includes several features that facilitate the learning experience:
+* The '''Elements''' tab, which displays the HTML being rendered on the page, allowing users to expand and collapse HTML sections.
+* The '''Console''' tab, which shows logs and errors of the '''JavaScript''' being rendered on the page, providing validation, tips, and hints.
+* The '''Sources''' tab, which lists the files being loaded into the browser for that page, including '''HTML''', '''JavaScript''', and '''CSS'''.
+* The '''Application''' tab, which includes the '''Local Storage''' area, displaying data saved to the browser by the website.
+
+== Installation ==
+To run the '''hacker-challenge''' locally, users can clone the repository and follow these steps:
+# Clone the '''hacker-challenge''' repository.
+# '''Cd''' into the repository.
+# Run '''python -m SimpleHTTPServer''' in the terminal.
+# Open '''http://localhost:8000''' in the browser.
+
+== Contributing ==
+The '''hacker-challenge''' repository is open to contributions. Users can contribute by creating a pull request or adding an issue with a suggestion for a new challenge. To add a new challenge, users can:
+# Duplicate the '''challenges/template.html''' page in both the '''hard''' and '''normal''' folders and edit it as needed.
+# Rename the files to an animal in alphabetical order from the last page, making it challenging for users to guess the next challenge page. Users can use [https://a-z-animals.com/animals/] for inspiration.
